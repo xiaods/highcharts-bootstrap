@@ -3,11 +3,16 @@ Highcharts Bootstrap
 
 Best Demo Site for Highcharts gem user
 
+[Demo site](https://stormy-reaches-4050.herokuapp.com/)
+
 ________________________
 
 ## Line charts
 
-* Basic line
+1. Basic line
+2. Ajax loaded data, clickable points
+3. With data labels
+
 
 ________________________
 
