@@ -1,0 +1,54 @@
+<% content_for :title, "Best Demo site for highcharts gem" %>
+<h3>HighCharts gem Demo Site</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="span3 bs-docs-sidebar">
+      <ul class="nav nav-list bs-docs-sidenav affix">
+        <li class="js-basic_line">
+        <%= link_to  basic_line_charts_path, remote: true do -%>
+          <i class="icon-chevron-right"></i>Basic Liine
+        <%- end -%>
+        </li>
+        <li class="js-line_ajax">
+        <%= link_to  line_ajax_charts_path, remote: true do -%>
+          <i class="icon-chevron-right"></i> Ajax loaded data, clickable points
+        <%- end -%>
+        </li>
+
+        <li class="js-line-labels">
+        <%= link_to  line_labels_charts_path, remote: true do -%>
+          <i class="icon-chevron-right"></i> With data labels
+        <%- end -%>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- demo charts master view -->
+    <div class="span9">
+      <section id="welcome_chart">
+        <div class="page-header">
+          <h1> Welcome to Highcharts Demo site! Lets's click left side's menu to render chart.</h1>
+        </div>
+      </section>
+      <section id="basic_line">
+        <div class="page-header">
+          <h1> Basic Line</h1>
+        </div>
+      </section>
+
+      <section id="line_ajax">
+        <div class="page-header">
+          <h1> Ajax loaded data, clickable points</h1>
+        </div>
+      </section>
+
+      <section id="line-labels">
+        <div class="page-header">
+          <h1> With data labels</h1>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
