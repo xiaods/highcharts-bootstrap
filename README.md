@@ -1,3 +1,5 @@
+DONT USE IT, IT'S NOT MAINTAINED ANYMORE.
+
 Highcharts Bootstrap
 ========================
 
